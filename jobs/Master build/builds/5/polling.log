@@ -1,0 +1,12 @@
+Started on Jan 15, 2020, 10:48:56 AM
+Started by event from 192.30.252.91 ⇒ http://18.189.188.9:8080/github-webhook/ on Wed Jan 15 10:48:56 UTC 2020
+Using strategy: Default
+[poll] Last Built Revision: Revision 37f6d6669e7fe1de3da099d78caa142b1ef8e805 (refs/remotes/origin/master)
+using credential 1e06389e-63bb-48c2-b3ac-f47cdc0c1b48
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git ls-remote -h -- https://github.com/abhi6666/master.git # timeout=10
+Found 1 remote heads on https://github.com/abhi6666/master.git
+[poll] Latest remote head revision on refs/heads/master is: 3e4d077ab6711c74a0b884eb7e051274176b707b
+Done. Took 0.17 sec
+Changes found

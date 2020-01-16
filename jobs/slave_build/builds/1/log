@@ -1,0 +1,28 @@
+Started by user [8mha:////4PQUHKa/5FOzpGSarSKf+LBV8K0nLYbSyU2FwrK4wBs8AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgY+/dLi1CL9xKSMzOKM1GwAQudJhcMAAAA=[0mAbhishek D S
+Running as SYSTEM
+Building remotely on [8mha:////4CbMjnjGHiVRfUrUzQzNlptOK85ksj4cb5vV/sisYNmiAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (leb1) in workspace /home/ubuntu/workspace/slave_build
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/abhi6666/master.git
+ > git init /home/ubuntu/workspace/slave_build # timeout=10
+Fetching upstream changes from https://github.com/abhi6666/master.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/abhi6666/master.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/abhi6666/master.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/abhi6666/master.git # timeout=10
+Fetching upstream changes from https://github.com/abhi6666/master.git
+ > git fetch --tags --progress -- https://github.com/abhi6666/master.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 3f6bbb2307d3f59b99bbf74a6a602ccc433191a1 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3f6bbb2307d3f59b99bbf74a6a602ccc433191a1 # timeout=10
+Commit message: "Delete sort.o"
+First time build. Skipping changelog.
+[slave_build] $ /bin/sh -xe /tmp/jenkins17590946412683392879.sh
++ cd /home/ubuntu/
++ make
+make: *** No targets specified and no makefile found.  Stop.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

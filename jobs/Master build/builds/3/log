@@ -1,0 +1,23 @@
+Started by GitHub push by abhi6666
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Master build
+using credential 1e06389e-63bb-48c2-b3ac-f47cdc0c1b48
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/abhi6666/master.git # timeout=10
+Fetching upstream changes from https://github.com/abhi6666/master.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress -- https://github.com/abhi6666/master.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 74bba326e9c6c04cee658e491a93538305196356 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 74bba326e9c6c04cee658e491a93538305196356 # timeout=10
+Commit message: "Update Makefile"
+ > git rev-list --no-walk 3f6bbb2307d3f59b99bbf74a6a602ccc433191a1 # timeout=10
+[Master build] $ /bin/sh -xe /tmp/jenkins11716823982362784731.sh
++ cd /var/lib/jenkins/workspace/Project1
++ make
+make: 'ABC.exe' is up to date.
+Finished: SUCCESS

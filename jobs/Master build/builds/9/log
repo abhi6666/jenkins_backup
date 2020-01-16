@@ -1,0 +1,23 @@
+Started by GitHub push by abhi6666
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Master build
+using credential 1e06389e-63bb-48c2-b3ac-f47cdc0c1b48
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/abhi6666/master.git # timeout=10
+Fetching upstream changes from https://github.com/abhi6666/master.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress -- https://github.com/abhi6666/master.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ede1779c920fd3f8b5d82de8af6b9018a578f8b8 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ede1779c920fd3f8b5d82de8af6b9018a578f8b8 # timeout=10
+Commit message: "main modified"
+ > git rev-list --no-walk 338256bd61d357303cdacc3e0c1118f2e2322fb5 # timeout=10
+[Master build] $ /bin/sh -xe /tmp/jenkins8478192711155845032.sh
++ cd /var/lib/jenkins/workspace/Project1
++ make
+make: 'ABC.exe' is up to date.
+Finished: SUCCESS

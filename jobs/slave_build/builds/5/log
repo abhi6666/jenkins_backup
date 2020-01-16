@@ -1,0 +1,39 @@
+Started by GitHub push by abhi6666
+Running as SYSTEM
+Building remotely on [8mha:////4CbMjnjGHiVRfUrUzQzNlptOK85ksj4cb5vV/sisYNmiAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (leb1) in workspace /home/ubuntu/workspace/slave_build
+using credential 1e06389e-63bb-48c2-b3ac-f47cdc0c1b48
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/abhi6666/master.git # timeout=10
+Fetching upstream changes from https://github.com/abhi6666/master.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress -- https://github.com/abhi6666/master.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision d5619a8198c2628a49c6963531080c6400de33ca (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d5619a8198c2628a49c6963531080c6400de33ca # timeout=10
+Commit message: "main modified"
+ > git rev-list --no-walk 794ec5f2177e1175e3f66a723428f9a12861643a # timeout=10
+[slave_build] $ /bin/sh -xe /tmp/jenkins14497719504251640647.sh
++ make
+gcc -c main.c
+main.c: In function ‘main’:
+main.c:3:3: warning: implicit declaration of function ‘bigg’ [-Wimplicit-function-declaration]
+   bigg ();
+   ^~~~
+main.c:5:1: warning: implicit declaration of function ‘pal’ [-Wimplicit-function-declaration]
+ pal();
+ ^~~
+main.c:6:1: warning: implicit declaration of function ‘revv’ [-Wimplicit-function-declaration]
+ revv();
+ ^~~~
+main.c:7:1: warning: implicit declaration of function ‘sortt’ [-Wimplicit-function-declaration]
+ sortt();
+ ^~~~~
+gcc -o ABC.exe big3.o palin.o rev.o sort.o main.o 
+palin.o: In function `pal':
+palin.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+Triggering a new build of [8mha:////4GCF95Xz1laY5zNF6kzdoe5GxTJTsXkFDq27BpYzRAzCAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYJ/az8JP3inMSy1Pik0syclPiU1IKc/Ep9AB4LTjHNAAAA[0mslave_build_deploy
+Finished: SUCCESS

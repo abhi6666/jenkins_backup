@@ -1,0 +1,29 @@
+Started by user [8mha:////4PQUHKa/5FOzpGSarSKf+LBV8K0nLYbSyU2FwrK4wBs8AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgY+/dLi1CL9xKSMzOKM1GwAQudJhcMAAAA=[0mAbhishek D S
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Master build
+using credential 1e06389e-63bb-48c2-b3ac-f47cdc0c1b48
+Cloning the remote Git repository
+Cloning repository https://github.com/abhi6666/master.git
+ > git init /var/lib/jenkins/workspace/Master build # timeout=10
+Fetching upstream changes from https://github.com/abhi6666/master.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress -- https://github.com/abhi6666/master.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/abhi6666/master.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/abhi6666/master.git # timeout=10
+Fetching upstream changes from https://github.com/abhi6666/master.git
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress -- https://github.com/abhi6666/master.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 3f6bbb2307d3f59b99bbf74a6a602ccc433191a1 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3f6bbb2307d3f59b99bbf74a6a602ccc433191a1 # timeout=10
+Commit message: "Delete sort.o"
+ > git rev-list --no-walk 3f6bbb2307d3f59b99bbf74a6a602ccc433191a1 # timeout=10
+[Master build] $ /bin/sh -xe /tmp/jenkins154617337413037785.sh
++ cd /var/lib/jenkins/workspace/Project1
++ make
+make: 'ABC.exe' is up to date.
+Finished: SUCCESS

@@ -1,0 +1,10 @@
+commit 338256bd61d357303cdacc3e0c1118f2e2322fb5
+tree 555368ef7d5f078b0318457073cab930b2a0dc59
+parent d5619a8198c2628a49c6963531080c6400de33ca
+author Ubuntu <ubuntu@ip-172-31-9-9.us-east-2.compute.internal> 2020-01-15 11:58:35 +0000
+committer Ubuntu <ubuntu@ip-172-31-9-9.us-east-2.compute.internal> 2020-01-15 11:58:35 +0000
+
+    main modified
+
+
+:100644 100644 99d5ea968d7e50c1aa89a8ea1591e6d402ad13ff 92297491c617759634df62fdb3fe1b69b39afb7e M	main.c

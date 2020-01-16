@@ -1,0 +1,24 @@
+Started by user [8mha:////4PQUHKa/5FOzpGSarSKf+LBV8K0nLYbSyU2FwrK4wBs8AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgY+/dLi1CL9xKSMzOKM1GwAQudJhcMAAAA=[0mAbhishek D S
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Test1
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/abhishekds6666/build.git
+ > git init /var/lib/jenkins/workspace/Test1 # timeout=10
+Fetching upstream changes from https://github.com/abhishekds6666/build.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/abhishekds6666/build.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/abhishekds6666/build.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/abhishekds6666/build.git # timeout=10
+Fetching upstream changes from https://github.com/abhishekds6666/build.git
+ > git fetch --tags --progress -- https://github.com/abhishekds6666/build.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e1172df0a20fc840fcf0f2dc57005c5310b5c428 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e1172df0a20fc840fcf0f2dc57005c5310b5c428 # timeout=10
+Commit message: "Delete sort.o"
+First time build. Skipping changelog.
+[Test1] $ /bin/sh -xe /tmp/jenkins12070782420306590858.sh
+Finished: SUCCESS

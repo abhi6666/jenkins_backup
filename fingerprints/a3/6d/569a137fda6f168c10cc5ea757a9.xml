@@ -1,0 +1,31 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-01-13 14:48:18.503 UTC</timestamp>
+  <md5sum>a36d569a137fda6f168c10cc5ea757a9</md5sum>
+  <fileName>Credential id=1e06389e-63bb-48c2-b3ac-f47cdc0c1b48 name=ubuntu</fileName>
+  <usages>
+    <entry>
+      <string>Test1</string>
+      <ranges>4</ranges>
+    </entry>
+    <entry>
+      <string>slave_build</string>
+      <ranges>2-7</ranges>
+    </entry>
+    <entry>
+      <string>Master build</string>
+      <ranges>2-9</ranges>
+    </entry>
+    <entry>
+      <string>pro java build</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@2.3.0">
+      <timestamp>1579171344385</timestamp>
+      <nodeName>slave1</nodeName>
+      <timestamp0>1579170858606</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>
