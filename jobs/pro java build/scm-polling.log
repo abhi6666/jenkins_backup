@@ -1,4 +1,4 @@
-Started on Jan 16, 2020, 2:30:00 PM
+Started on Jan 16, 2020, 2:35:00 PM
 Using strategy: Default
 [poll] Last Built Revision: Revision 272ed357b8084bda7a420f264940b8713780ffb1 (refs/remotes/origin/master)
 using credential 1e06389e-63bb-48c2-b3ac-f47cdc0c1b48
@@ -7,5 +7,5 @@ using GIT_SSH to set credentials
  > git ls-remote -h -- https://github.com/abhi6666/Java-repository.git # timeout=10
 Found 1 remote heads on https://github.com/abhi6666/Java-repository.git
 [poll] Latest remote head revision on refs/heads/master is: 272ed357b8084bda7a420f264940b8713780ffb1 - already built by 1
-Done. Took 0.17 sec
+Done. Took 0.21 sec
 No changes
